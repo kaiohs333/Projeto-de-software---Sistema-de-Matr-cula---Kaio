@@ -1,0 +1,136 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="oRT76YYuBv0VHE0LLzzM">
+    <mxGraphModel dx="1193" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FPv0-bghzXOiU3tTZ1Pd-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FPv0-bghzXOiU3tTZ1Pd-1" target="FPv0-bghzXOiU3tTZ1Pd-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FPv0-bghzXOiU3tTZ1Pd-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FPv0-bghzXOiU3tTZ1Pd-1" target="FPv0-bghzXOiU3tTZ1Pd-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FPv0-bghzXOiU3tTZ1Pd-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="FPv0-bghzXOiU3tTZ1Pd-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="50" y="100" />
+              <mxPoint x="50" y="200" />
+              <mxPoint x="210" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FPv0-bghzXOiU3tTZ1Pd-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FPv0-bghzXOiU3tTZ1Pd-1" target="FPv0-bghzXOiU3tTZ1Pd-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="100" />
+              <mxPoint x="20" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FPv0-bghzXOiU3tTZ1Pd-1" value="Aluno" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="70" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FPv0-bghzXOiU3tTZ1Pd-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="FPv0-bghzXOiU3tTZ1Pd-2" target="FPv0-bghzXOiU3tTZ1Pd-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FPv0-bghzXOiU3tTZ1Pd-2" value="Secretaria" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="440" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FPv0-bghzXOiU3tTZ1Pd-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FPv0-bghzXOiU3tTZ1Pd-4" target="FPv0-bghzXOiU3tTZ1Pd-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FPv0-bghzXOiU3tTZ1Pd-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.014;entryY=0.476;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FPv0-bghzXOiU3tTZ1Pd-4" target="FPv0-bghzXOiU3tTZ1Pd-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="260" />
+              <mxPoint x="160" y="375" />
+              <mxPoint x="209" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FPv0-bghzXOiU3tTZ1Pd-4" value="Professor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="230" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FPv0-bghzXOiU3tTZ1Pd-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FPv0-bghzXOiU3tTZ1Pd-7" target="FPv0-bghzXOiU3tTZ1Pd-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FPv0-bghzXOiU3tTZ1Pd-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FPv0-bghzXOiU3tTZ1Pd-7" target="FPv0-bghzXOiU3tTZ1Pd-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FPv0-bghzXOiU3tTZ1Pd-7" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="50" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FPv0-bghzXOiU3tTZ1Pd-8" value="Efetuar matrícula" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="235" y="60" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FPv0-bghzXOiU3tTZ1Pd-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FPv0-bghzXOiU3tTZ1Pd-9" target="FPv0-bghzXOiU3tTZ1Pd-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FPv0-bghzXOiU3tTZ1Pd-9" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="120" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FPv0-bghzXOiU3tTZ1Pd-10" value="Cancelar matrícula" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="235" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FPv0-bghzXOiU3tTZ1Pd-12" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="210" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FPv0-bghzXOiU3tTZ1Pd-13" value="Visualizar matrícula realizada" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="235" y="220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FPv0-bghzXOiU3tTZ1Pd-14" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="270" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FPv0-bghzXOiU3tTZ1Pd-15" value="Consultar matrícula realizada" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="235" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FPv0-bghzXOiU3tTZ1Pd-16" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="350" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FPv0-bghzXOiU3tTZ1Pd-17" value="Validar login" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="235" y="360" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FPv0-bghzXOiU3tTZ1Pd-23" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="430" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FPv0-bghzXOiU3tTZ1Pd-24" value="Gerenciar período de matrícula" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="235" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FPv0-bghzXOiU3tTZ1Pd-25" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="500" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FPv0-bghzXOiU3tTZ1Pd-26" value="Gerenciar cursos e disciplinas" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="235" y="510" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FPv0-bghzXOiU3tTZ1Pd-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="FPv0-bghzXOiU3tTZ1Pd-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FPv0-bghzXOiU3tTZ1Pd-27" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="50" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FPv0-bghzXOiU3tTZ1Pd-28" value="Notificar sistema de cobraça" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="462.5" y="60" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FPv0-bghzXOiU3tTZ1Pd-29" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="120" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FPv0-bghzXOiU3tTZ1Pd-30" value="Verificar ativação de disciplina" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="462.5" y="130" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FPv0-bghzXOiU3tTZ1Pd-31" value="Sistema de cobrança" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="45" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FPv0-bghzXOiU3tTZ1Pd-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.1;entryY=0.3;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FPv0-bghzXOiU3tTZ1Pd-2" target="FPv0-bghzXOiU3tTZ1Pd-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FPv0-bghzXOiU3tTZ1Pd-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.073;entryY=0.76;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FPv0-bghzXOiU3tTZ1Pd-2" target="FPv0-bghzXOiU3tTZ1Pd-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
