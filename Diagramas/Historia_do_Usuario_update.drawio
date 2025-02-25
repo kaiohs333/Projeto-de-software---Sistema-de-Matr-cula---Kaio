@@ -1,0 +1,361 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.16">
+  <diagram name="Page-1" id="JOX2PTWbfsL6PTr6-xfH">
+    <mxGraphModel dx="5580" dy="1780" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-1" value="História de Usuário" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=default;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;rounded=0;shadow=1;glass=0;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="-1043.5" y="19" width="417" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-2" value="1. Matrícula de Disciplinas (Aluno)" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=default;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;rounded=0;shadow=1;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="-1732" y="132" width="520" height="234" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-3" value="   - Como um aluno," style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-2">
+          <mxGeometry y="26" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-4" value="   - Quero me matricular em até 4 disciplinas obrigatórias e 2 optativas," style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-2">
+          <mxGeometry y="52" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-5" value="   - Para garantir minha participação nas aulas do próximo semestre." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-2">
+          <mxGeometry y="78" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-6" value="   - Prioridade: Alta" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-2">
+          <mxGeometry y="104" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-7" value="   - Critérios de Aceitação:" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-2">
+          <mxGeometry y="130" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-8" value="     - O sistema deve permitir que o aluno selecione até 4 disciplinas obrigatórias e 2 optativas." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-2">
+          <mxGeometry y="156" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-9" value="     - O sistema deve verificar se o aluno atende aos pré-requisitos das disciplinas selecionadas." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-2">
+          <mxGeometry y="182" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-10" value="     - O sistema deve confirmar a matrícula e exibir um comprovante." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-2">
+          <mxGeometry y="208" width="520" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-11" value="2. Cancelamento de Matrícula (Aluno)" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=default;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;rounded=0;shadow=1;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="-1130" y="132" width="590" height="234" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-12" value="   - Como um aluno," style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-11">
+          <mxGeometry y="26" width="590" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-13" value="   - Quero cancelar minha matrícula em disciplinas durante o período permitido," style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-11">
+          <mxGeometry y="52" width="590" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-14" value="   - Para ajustar minha carga horária de acordo com minhas necessidades." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-11">
+          <mxGeometry y="78" width="590" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-15" value="   - Prioridade: Média" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-11">
+          <mxGeometry y="104" width="590" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-16" value="   - Critérios de Aceitação:" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-11">
+          <mxGeometry y="130" width="590" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-17" value="     - O sistema deve permitir que o aluno cancele a matrícula em disciplinas dentro do período especificado." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-11">
+          <mxGeometry y="156" width="590" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-18" value="     - O sistema deve exibir uma mensagem de confirmação do cancelamento." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-11">
+          <mxGeometry y="182" width="590" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-19" value="     - O sistema deve atualizar a carga horária do aluno." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-11">
+          <mxGeometry y="208" width="590" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-20" value="3. Visualização de Disciplinas Matriculadas (Aluno)" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=default;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;rounded=0;shadow=1;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="-453" y="130" width="490" height="234" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-21" value="   - Como um aluno," style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-20">
+          <mxGeometry y="26" width="490" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-22" value="   - Quero visualizar todas as disciplinas em que estou matriculado," style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-20">
+          <mxGeometry y="52" width="490" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-23" value="   - Para acompanhar facilmente minha grade de horários e compromissos." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-20">
+          <mxGeometry y="78" width="490" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-24" value="   - Prioridade: Alta" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-20">
+          <mxGeometry y="104" width="490" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-25" value="   - Critérios de Aceitação:" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-20">
+          <mxGeometry y="130" width="490" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-26" value="     - O sistema deve exibir uma lista das disciplinas em que o aluno está matriculado." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-20">
+          <mxGeometry y="156" width="490" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-27" value="     - O sistema deve mostrar os horários e locais das aulas." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-20">
+          <mxGeometry y="182" width="490" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-28" value="     - O sistema deve permitir que o aluno exporte a grade de horários para um calendário." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-20">
+          <mxGeometry y="208" width="490" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-29" value="4. Consulta de Alunos Matriculados (Professor)" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=default;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;rounded=0;shadow=1;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="-1710" y="428" width="470" height="234" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-30" value="   - Como um professor," style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-29">
+          <mxGeometry y="26" width="470" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-31" value="   - Quero acessar a lista de alunos matriculados em minhas disciplinas," style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-29">
+          <mxGeometry y="52" width="470" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-32" value="   - Para me preparar melhor para as aulas e acompanhar o desempenho dos alunos." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-29">
+          <mxGeometry y="78" width="470" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-33" value="   - Prioridade: Alta" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-29">
+          <mxGeometry y="104" width="470" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-34" value="   - Critérios de Aceitação:" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-29">
+          <mxGeometry y="130" width="470" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-35" value="     - O sistema deve exibir uma lista dos alunos matriculados em cada disciplina." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-29">
+          <mxGeometry y="156" width="470" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-36" value="     - O sistema deve mostrar informações de contato dos alunos (e-mail, telefone)." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-29">
+          <mxGeometry y="182" width="470" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-37" value="     - O sistema deve permitir que o professor envie mensagens para os alunos." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-29">
+          <mxGeometry y="208" width="470" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-38" value="5. Gestão de Disciplinas e Cursos (Secretaria)" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=default;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;rounded=0;shadow=1;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="-1096" y="440" width="490" height="234" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-39" value="   - Como um membro da secretaria," style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-38">
+          <mxGeometry y="26" width="490" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-40" value="   - Quero cadastrar, editar e remover cursos e disciplinas," style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-38">
+          <mxGeometry y="52" width="490" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-41" value="   - Para manter o currículo acadêmico sempre atualizado." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-38">
+          <mxGeometry y="78" width="490" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-42" value="   - Prioridade: Alta" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-38">
+          <mxGeometry y="104" width="490" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-43" value="   - Critérios de Aceitação:" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-38">
+          <mxGeometry y="130" width="490" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-44" value="     - O sistema deve permitir que a secretaria adicione novas disciplinas ao currículo." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-38">
+          <mxGeometry y="156" width="490" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-45" value="     - O sistema deve permitir que a secretaria edite informações das disciplinas existentes." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-38">
+          <mxGeometry y="182" width="490" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-46" value="     - O sistema deve permitir que a secretaria remova disciplinas do currículo." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-38">
+          <mxGeometry y="208" width="490" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-47" value="6. Abertura e Fechamento do Período de Matrícula (Secretaria)" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=default;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;rounded=0;shadow=1;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="-518" y="442" width="630" height="234" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-48" value="   - Como um membro da secretaria," style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-47">
+          <mxGeometry y="26" width="630" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-49" value="   - Quero abrir e encerrar o período de matrícula," style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-47">
+          <mxGeometry y="52" width="630" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-50" value="   - Para controlar o calendário acadêmico de forma eficiente." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-47">
+          <mxGeometry y="78" width="630" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-51" value="   - Prioridade: Alta" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-47">
+          <mxGeometry y="104" width="630" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-52" value="   - Critérios de Aceitação:" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-47">
+          <mxGeometry y="130" width="630" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-53" value="     - O sistema deve permitir que a secretaria defina as datas de início e fim do período de matrícula." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-47">
+          <mxGeometry y="156" width="630" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-54" value="     - O sistema deve exibir uma mensagem clara informando quando o período de matrícula está aberto ou fechado." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-47">
+          <mxGeometry y="182" width="630" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-55" value="     - O sistema deve impedir que os alunos se matriculem fora do período de matrícula." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-47">
+          <mxGeometry y="208" width="630" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-56" value="7. Validação de Login (Todos os Usuários)" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=default;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;rounded=0;shadow=1;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="-1765" y="738" width="580" height="234" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-57" value="   - Como um usuário do sistema," style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-56">
+          <mxGeometry y="26" width="580" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-58" value="   - Quero realizar login com meu e-mail e senha," style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-56">
+          <mxGeometry y="52" width="580" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-59" value="   - Para acessar de forma segura as funcionalidades do sistema." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-56">
+          <mxGeometry y="78" width="580" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-60" value="   - Prioridade: Alta" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-56">
+          <mxGeometry y="104" width="580" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-61" value="   - Critérios de Aceitação:" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-56">
+          <mxGeometry y="130" width="580" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-62" value="     - O sistema deve permitir que os usuários façam login com e-mail e senha." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-56">
+          <mxGeometry y="156" width="580" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-63" value="     - O sistema deve verificar as credenciais do usuário e conceder acesso apenas a usuários autorizados." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-56">
+          <mxGeometry y="182" width="580" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-64" value="     - O sistema deve implementar medidas de segurança para proteger as senhas dos usuários." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-56">
+          <mxGeometry y="208" width="580" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-65" value="8. Notificação de Cobrança (Sistema de Cobrança)" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=default;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;rounded=0;shadow=1;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="-1130" y="746" width="540" height="234" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-66" value="   - Como o sistema de cobrança," style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-65">
+          <mxGeometry y="26" width="540" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-67" value="   - Quero ser notificado automaticamente quando um aluno concluir a matrícula," style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-65">
+          <mxGeometry y="52" width="540" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-68" value="   - Para gerar as cobranças referentes às disciplinas do semestre." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-65">
+          <mxGeometry y="78" width="540" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-69" value="   - Prioridade: Alta" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-65">
+          <mxGeometry y="104" width="540" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-70" value="   - Critérios de Aceitação:" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-65">
+          <mxGeometry y="130" width="540" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-71" value="     - O sistema deve notificar o sistema de cobrança sempre que um aluno concluir uma matrícula." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-65">
+          <mxGeometry y="156" width="540" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-72" value="     - A notificação deve incluir informações sobre as disciplinas matriculadas pelo aluno." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-65">
+          <mxGeometry y="182" width="540" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-73" value="     - O sistema deve garantir que as cobranças sejam geradas corretamente e enviadas aos alunos." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-65">
+          <mxGeometry y="208" width="540" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-74" value="9. Verificação Automática da Ativação de Disciplinas (Sistema)" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=default;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;rounded=0;shadow=1;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="-544" y="748" width="700" height="234" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-75" value="   - Como o sistema de matrículas," style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-74">
+          <mxGeometry y="26" width="700" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-76" value="   - Quero verificar automaticamente se uma disciplina possui pelo menos 3 alunos matriculados," style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-74">
+          <mxGeometry y="52" width="700" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-77" value="   - Para ativá-la ou cancelá-la de acordo com as normas acadêmicas" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-74">
+          <mxGeometry y="78" width="700" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-78" value="   - Prioridade: Alta" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-74">
+          <mxGeometry y="104" width="700" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-79" value="   - Critérios de Aceitação:" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-74">
+          <mxGeometry y="130" width="700" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-80" value="     - O sistema deve verificar automaticamente o número de alunos matriculados em cada disciplina após o período de matrícula." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-74">
+          <mxGeometry y="156" width="700" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-81" value="     - O sistema deve ativar disciplinas com pelo menos 3 alunos matriculados." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-74">
+          <mxGeometry y="182" width="700" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-82" value="     - O sistema deve cancelar disciplinas com menos de 3 alunos matriculados." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-74">
+          <mxGeometry y="208" width="700" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-84" value="10. Receber Alertas sobre Disponibilidade de Vagas (Aluno)" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;swimlaneFillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-2095" y="1037" width="921" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-85" value="   - Como um aluno, eu quero receber alertas sobre a disponibilidade de vagas em disciplinas que estou interessado, para que eu possa me matricular assim que possível." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-84">
+          <mxGeometry y="26" width="921" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-86" value="   - Prioridade: Alta" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-84">
+          <mxGeometry y="52" width="921" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-87" value="   - Critérios de Aceitação:" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-84">
+          <mxGeometry y="78" width="921" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-88" value="     - O sistema deve permitir que os alunos sejam notificados quando uma disciplina que eles estão interessados se torna disponível." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-84">
+          <mxGeometry y="104" width="921" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-89" value="     - O sistema deve enviar notificações por e-mail ou mensagem no sistema." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-84">
+          <mxGeometry y="130" width="921" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-90" value="     - O sistema deve garantir que as notificações sejam enviadas em tempo real." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-84">
+          <mxGeometry y="156" width="921" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-91" value="11. Gerar Relatórios de Desempenho dos Alunos (Professor)" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;swimlaneFillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-1130" y="1037" width="931" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-92" value="   - Como um professor, eu quero ter acesso a relatórios detalhados sobre o desempenho dos alunos em minhas disciplinas, para que eu possa identificar áreas de melhoria." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-91">
+          <mxGeometry y="26" width="931" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-93" value="   - Prioridade: Média" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-91">
+          <mxGeometry y="52" width="931" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-94" value="   - Critérios de Aceitação:" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-91">
+          <mxGeometry y="78" width="931" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-95" value="     - O sistema deve gerar relatórios que mostram o desempenho dos alunos em cada disciplina." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-91">
+          <mxGeometry y="104" width="931" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-96" value="     - O sistema deve incluir informações sobre notas, frequência e participação." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-91">
+          <mxGeometry y="130" width="931" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-97" value="     - O sistema deve permitir que os professores filtrem os relatórios por disciplina ou período." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-91">
+          <mxGeometry y="156" width="931" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-98" value="12. Automatizar Relatórios de Matrículas (Secretaria)" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;swimlaneFillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-145" y="1037" width="870" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-99" value="   - Como um funcionário da secretaria, eu quero automatizar a geração de relatórios de matrículas para que eu possa dedicar mais tempo a tarefas estratégicas." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-98">
+          <mxGeometry y="26" width="870" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-100" value="   - Prioridade: Alta" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-98">
+          <mxGeometry y="52" width="870" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-101" value="   - Critérios de Aceitação:" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-98">
+          <mxGeometry y="78" width="870" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-102" value="     - O sistema deve gerar relatórios de matrículas automaticamente no final de cada período." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-98">
+          <mxGeometry y="104" width="870" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-103" value="     - O sistema deve incluir informações sobre o número de alunos matriculados em cada disciplina." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-98">
+          <mxGeometry y="130" width="870" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-104" value="     - O sistema deve permitir que a secretaria exporte os relatórios para formatos como PDF ou Excel." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-98">
+          <mxGeometry y="156" width="870" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-105" value="13. Calendário Acadêmico Integrado (Aluno)" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;swimlaneFillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-1788" y="1305" width="826" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-106" value="   - Como um aluno, eu quero ter acesso a um calendário acadêmico integrado ao sistema de matrículas, para que eu possa planejar melhor meu tempo." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-105">
+          <mxGeometry y="26" width="826" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-107" value="   - Prioridade: Média" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-105">
+          <mxGeometry y="52" width="826" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-108" value="   - Critérios de Aceitação:" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-105">
+          <mxGeometry y="78" width="826" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-109" value="     - O sistema deve integrar um calendário que mostre as datas importantes do semestre (início e fim do período de matrícula, provas, etc.)." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-105">
+          <mxGeometry y="104" width="826" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-110" value="     - O sistema deve permitir que os alunos sincronizem o calendário com seus dispositivos pessoais." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-105">
+          <mxGeometry y="130" width="826" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-111" value="     - O sistema deve enviar lembretes sobre eventos importantes." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-105">
+          <mxGeometry y="156" width="826" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-112" value="14. Enviar Mensagens para Alunos (Professor)" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;swimlaneFillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-809" y="1305" width="971" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-113" value="   - Como um professor, eu quero poder enviar mensagens para os alunos matriculados em minhas disciplinas, para que eu possa comunicar informações importantes rapidamente." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-112">
+          <mxGeometry y="26" width="971" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-114" value="   - Prioridade: Média" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-112">
+          <mxGeometry y="52" width="971" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-115" value="   - Critérios de Aceitação:" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-112">
+          <mxGeometry y="78" width="971" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-116" value="     - O sistema deve permitir que os professores enviem mensagens para os alunos matriculados em suas disciplinas." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-112">
+          <mxGeometry y="104" width="971" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-117" value="     - O sistema deve incluir a capacidade de enviar mensagens em massa ou individuais." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-112">
+          <mxGeometry y="130" width="971" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="CiswzmlxSEiwOSy1NOkA-118" value="     - O sistema deve garantir que as mensagens sejam entregues aos alunos de forma confiável." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="CiswzmlxSEiwOSy1NOkA-112">
+          <mxGeometry y="156" width="971" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
